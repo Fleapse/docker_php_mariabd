@@ -7,7 +7,7 @@ services:
     - 80:80
    volumes: 
     - ./www/:/var/www/html
-    - ./php/php.ini:/usr/local/etc/php/php.ini
+    # - ./php/php.ini:/usr/local/etc/php/php.ini
    depends_on:
     - mariadb
 
